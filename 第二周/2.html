@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>9.16</title>
+		<style>
+		/* 	body{
+				background:url(微信图片_20200913143459.jpg) no-repeat;
+				background-size: 100%;
+				margin: 0 auto;
+			} */
+			.name{
+				text-align: center;
+				font-size: 30px;
+				color: aqua;
+			}
+			.scanner{
+				width: 270px;
+				margin: 0 auto;
+				font-size: 23px;
+			/* 	color: aquamarine; */
+				height: 200px;
+				border: 1px solid aquamarine;
+				border-radius: 20px;
+				box-shadow: 0 0 30px #00FFFF; 
+				/* line-height: 400px; */
+				/* text-align: center; */
+			}
+			.uername{
+				/* display: block; */
+				margin-top: 57px;
+				height: 15px;
+				width: 150px;
+			}
+			.password{
+				/* display: block; */
+			margin-top: 25px;
+			height: 15px;
+			width: 150px;
+			}
+			.button{
+				width:60px;
+				height: 30px;
+				margin-top: 15px;
+				background-color: coral;
+				border: none;
+				border-radius: 5px;
+				outline: none;
+			}
+		</style>
+	</head>
+	<body>
+		<p class="name">江西软件职业技术大学</p>
+		<div class="scanner">
+			<center>
+		用户名: <input type="text" placeholder="请输入账号" class="uername" />
+		密&nbsp;&nbsp; 码: <input type="password" class="password" />
+		<input type="button" value="登录" class="button"/>
+		</center>
+		
+		</div>
+	</body>
+	<script>
+		document.querySelector('.button').onclick = function(){
+			alert('登录成功了');
+		}
+	</script>
+</html>
