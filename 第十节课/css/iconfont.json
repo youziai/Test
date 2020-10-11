@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17457922",
+      "name": "猪-01",
+      "font_class": "zhu-01",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "17457928",
+      "name": "羊-01",
+      "font_class": "yang-01",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "17457929",
+      "name": "企鹅-01",
+      "font_class": "qie-01",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "17563344",
+      "name": "宠物保洁",
+      "font_class": "jiazheng_huaban1fuben17",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    }
+  ]
+}
